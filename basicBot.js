@@ -298,7 +298,7 @@
                     basicBot.room.roulette.rouletteStatus = true;
                     basicBot.room.roulette.countdown = setTimeout(function () {
                         basicBot.room.roulette.endRoulette();
-                    }, 5);
+                    }, 5 * 1000);
                     API.sendChat(basicBot.chat.isopen);
                 },
                 endRoulette: function () {
