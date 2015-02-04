@@ -184,7 +184,7 @@
         loggedInID: null,
         scriptLink: "https://raw.githubusercontent.com/NoneOrganization/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://raw.githubusercontent.com/NoneOrganization/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/NoneOrganization/basicBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
