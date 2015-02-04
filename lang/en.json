@@ -1,11 +1,11 @@
 {
 
     "nodatafound": "No previous data found.",
-    "retrievingdata": "Retrieving previously stored data.",
-    "datarestored": "Previously stored data successfully retrieved.",
-    "greyuser": "Only bouncers and up can run a bot.",
+    "retrievingdata": "Išgaunama informacija.",
+    "datarestored": "Informacija išgauta.",
+    "greyuser": "Tik 'bouncer' ir aukštesnes privilegijas turintys klausytojai gali paleisti bot'ą.",
     "bouncer": "The bot can't move people when it's run as a bouncer.",
-    "online": "/me %%BOTNAME%% v%%VERSION%% online!",
+    "online": "/me %%BOTNAME%% v%%VERSION%% sėkmingai pajungtas!",
 
 
     "welcome": "/me Sveiki atvyke, %%NAME%%",
