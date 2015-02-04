@@ -182,7 +182,7 @@
         status: false,
         name: "Lietuvos Širdis",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/NoneOrganization/basicBot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
         chatLink: "https://rawgit.com/NoneOrganization/basicBot/master/lang/en.json",
         chat: null,
