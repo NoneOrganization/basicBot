@@ -312,7 +312,7 @@
                     API.sendChat(subChat(basicBot.chat.winnerpicked, {name: name, position: pos}));
                     setTimeout(function (winner, pos) {
                         basicBot.userUtilities.moveUser(winner, pos, false);
-                    }, 1 * 1000, winner, pos);
+                    }, 5 * 1000, winner, pos);
                 }
             }
         },
