@@ -192,7 +192,7 @@
         settings: {
             botName: "Lietuvos Širdis",
             language: "english",
-            chatLink: "https://raw.githubusercontent.com/NoneOrganization/basicBot/master/lang/en.json",
+            chatLink: "https://rawgit.com/NoneOrganization/basicBot/master/lang/en.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
