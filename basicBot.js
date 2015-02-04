@@ -298,7 +298,7 @@
                     basicBot.room.roulette.rouletteStatus = true;
                     basicBot.room.roulette.countdown = setTimeout(function () {
                         basicBot.room.roulette.endRoulette();
-                    }, 30 * 1000);
+                    }, 5 * 1000);
                     API.sendChat(basicBot.chat.isopen);
                 },
                 endRoulette: function () {
@@ -306,7 +306,7 @@
 			var ind = Math.floor(Math.random() * basicBot.room.roulette.participants.length);
 			var winner = basicBot.room.roulette.participants[ind];
 			basicBot.room.roulette.participants = [];
-			var pos = Math.floor(API.getWaitList().length) + 1;
+			var pos = Math.floor(API.getWaitList().length) - 5;
 			var user = basicBot.userUtilities.lookupUser(winner);
 			var name = user.username;
 			API.sendChat(subChat(basicBot.chat.winnerpicked, {name: name, position: pos}));
