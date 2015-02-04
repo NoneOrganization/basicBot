@@ -190,7 +190,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "Lietuvos Širdis",
             language: "english",
             chatLink: "https://rawgit.com/NoneOrganization/basicBot/master/lang/en.json",
             maximumAfk: 120,
