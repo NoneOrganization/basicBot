@@ -180,7 +180,7 @@
     var basicBot = {
         version: "2.2.1",
         status: false,
-        name: "basicBot",
+        name: "Lietuvos Širdis",
         loggedInID: null,
         scriptLink: "https://rawgit.com/NoneOrganization/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -190,7 +190,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "Lietuvos Širdis - ",
+            botName: "Lietuvos Širdis ",
             language: "english",
             chatLink: "https://rawgit.com/NoneOrganization/basicBot/master/lang/en.json",
             maximumAfk: 120,
@@ -298,7 +298,7 @@
                     basicBot.room.roulette.rouletteStatus = true;
                     basicBot.room.roulette.countdown = setTimeout(function () {
                         basicBot.room.roulette.endRoulette();
-                    }, 60 * 1000);
+                    }, 5);
                     API.sendChat(basicBot.chat.isopen);
                 },
                 endRoulette: function () {
