@@ -178,9 +178,9 @@
     var botCreatorIDs = [];
 
     var basicBot = {
-        version: "2.2.1",
+        version: "3.0.1",
         status: false,
-        name: "Lietuvos Širdis",
+        name: "iBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/NoneOrganization/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -190,7 +190,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "Lietuvos Širdis",
+            botName: "iBot",
             language: "english",
             chatLink: "https://rawgit.com/NoneOrganization/basicBot/master/lang/en.json",
             maximumAfk: 120,
@@ -993,7 +993,7 @@
                     API.sendChat(subChat(basicBot.chat.adfly, {name: chat.un}));
                     return true;
                 }
-                if (msg.indexOf('autojoin was not enabled') > 0 || msg.indexOf('AFK message was not enabled') > 0 || msg.indexOf('!afkdisable') > 0 || msg.indexOf('!joindisable') > 0 || msg.indexOf('autojoin disabled') > 0 || msg.indexOf('AFK message disabled') > 0) {
+                if (msg.indexOf('autojoin was not enabled') > 0 || msg.indexOf('AFK message was not enabled') > 0 || msg.indexOf('!afkdisable') > 0 || msg.indexOf('!play') > 0 || msg.indexOf('autojoin disabled') > 0 || msg.indexOf('AFK message disabled') > 0) {
                     API.moderateDeleteChat(chat.cid);
                     return true;
                 }
@@ -1029,7 +1029,7 @@
                 else return false;
                 var userPerm = basicBot.userUtilities.getPermission(chat.uid);
                 //console.log("name: " + chat.un + ", perm: " + userPerm);
-                if (chat.message !== "!join" && chat.message !== "!leave") {
+                if (chat.message !== "!play" && chat.message !== "!leave") {
                     if (userPerm === 0 && !basicBot.room.usercommand) return void (0);
                     if (!basicBot.room.allcommand) return void (0);
                 }
