@@ -16,7 +16,7 @@
     "isblacklisted": "/me This track is on the %%BLACKLIST%% blacklist! Skipping...",
 
 
-    "isopen": "/me Ruletė veikia! Rašykite !join, kad žaistumėte!",
+    "isopen": "/me Ruletė veikia! Rašykite !play, kad žaistumėte!",
     "winnerpicked": "/me Nugalėtojas parinktas! @%%NAME%% į poziciją %%POSITION%%.",
 
 
