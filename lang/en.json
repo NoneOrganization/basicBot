@@ -8,10 +8,10 @@
     "online": "/me %%BOTNAME%% - v%%VERSION%% sėkmingai paleistas!",
 
 
-    "welcome": "/me Sveiki atvyke, %%NAME%%",
-    "welcomeback": "/me Sveiki sugrįže, %%NAME%%",
-    "songknown": "/me :repeat: This song has been played %%PLAYS%% time(s) in the last %%TIMETOTAL%%, last play was %%LASTTIME%% ago. :repeat:",
-    "timelimit": "/me @%%NAME%%, your song is longer than %%MAXLENGTH%% minutes, you need permission to play longer songs.",
+    "welcome": "/me Sveiki atvykę į Lietuvos Širdis kambarį, %%NAME%%",
+    "welcomeback": "/me Sveiki sugrįžę, %%NAME%%",
+    "songknown": "/me :repeat: Ši daina jau grojo %%PLAYS%% kartą(-ų) per pastarasias %%TIMETOTAL%%, paskutinį kartą grojo prieš %%LASTTIME%%. :repeat:",
+    "timelimit": "/me @%%NAME%%, dainos trukmė per ilga!",
     "permissionownsong": "/me :up: @%%NAME%% has permission to play their own production!",
     "isblacklisted": "/me This track is on the %%BLACKLIST%% blacklist! Skipping...",
 
@@ -24,7 +24,7 @@
     "adding": "/me Added @%%NAME%% to the queue. Current queue: %%POSITION%%.",
 
 
-    "usernotfound": "/me User not found.",
+    "usernotfound": "/me Vartotojas nerastas.",
     "notdisconnected": "/me @%%NAME%% did not disconnect during my time here.",
     "noposition": "/me No last position known. The waitlist needs to update at least once to register a user's last position.",
     "toolongago": "/me @%%NAME%%'s last disconnect (DC or leave) was too long ago: %%TIME%%.",
